@@ -1,0 +1,54 @@
+Client:
+ Context:    default
+ Debug Mode: false
+ Plugins:
+  buildx: Docker Buildx (Docker Inc., v0.7.1)
+  compose: Docker Compose (Docker Inc., v2.2.3)
+  scan: Docker Scan (Docker Inc., v0.16.0)
+
+Server:
+ Containers: 2
+  Running: 1
+  Paused: 0
+  Stopped: 1
+ Images: 4
+ Server Version: 20.10.12
+ Storage Driver: overlay2
+  Backing Filesystem: extfs
+  Supports d_type: true
+  Native Overlay Diff: true
+  userxattr: false
+ Logging Driver: json-file
+ Cgroup Driver: cgroupfs
+ Cgroup Version: 1
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog
+ Swarm: inactive
+ Runtimes: io.containerd.runc.v2 io.containerd.runtime.v1.linux runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: 7b11cfaabd73bb80907dd23182b9347b4245eb5d
+ runc version: v1.0.2-0-g52b36a2
+ init version: de40ad0
+ Security Options:
+  seccomp
+   Profile: default
+ Kernel Version: 5.4.72-microsoft-standard-WSL2
+ Operating System: Docker Desktop
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 16
+ Total Memory: 50.17GiB
+ Name: docker-desktop
+ ID: VOTT:AE7G:MP3F:2PSH:XKFJ:JEX3:DHXA:R3LO:TNBS:VQTT:ZHBP:KJXF
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ Registry: https://index.docker.io/v1/
+ Labels:
+ Experimental: false
+ Insecure Registries:
+  127.0.0.0/8
+ Live Restore Enabled: false
+
